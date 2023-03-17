@@ -19,7 +19,8 @@ int get_index(char character, char* set) {
 
 void decrypt_ciphertext(char* message) {
   char alphabet[26] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  char key[] = "BEADSBEADSBEADSBEADSBEADSBEADSBEADSBEADSBEADSBEADSBE";
+  // hans niemann?
+  char key[] = "BEADS";
   int key_offset;
   int key_length;
   int old_index;
